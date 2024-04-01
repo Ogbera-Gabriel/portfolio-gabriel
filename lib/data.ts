@@ -56,14 +56,14 @@ export const projectsData = [
   {
     title: "Chattr",
     description:
-      "This is a Twitter Clone called Chattr where you can post, edit post, and delete post. Users can sign up and login to connect to friends. Usercan leaves comment and like post. The site is responsive on mobile devices as well.",
+      "This is a Twitter Clone called Chattr where you can post, edit post, and delete post. Users can sign up and login to connect to friends. User can leaves comment and like post.",
     tags: ["React", "Express", "MongoDB", "CSS"],
     imageUrl: corpcommentImg,
   },
   {
     title: "Tea-Explorer",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "This is a beautiful site for Tea Connoisseurs. It was full-stack. User can create, delete, add favortite tea. Users can leave comments and likes",
     tags: ["Express", "JavaScript", "MongoDB", "Bootstrap", "Redux"],
     imageUrl: rmtdevImg,
   },
