@@ -5,10 +5,12 @@ import SectionHeading from "./section-heading";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { useSectionInView } from "@/lib/hooks";
 
 export default function Projects() {
+  const { ref } = useSectionInView("Projects", 0.5)
   return (
-    <section>
+    <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
       <SectionHeading>My Projects</SectionHeading>
       <div>
         {projectsData.map((project, index) => (
