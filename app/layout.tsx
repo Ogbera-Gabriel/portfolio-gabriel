@@ -10,9 +10,10 @@ import { Analytics } from '@vercel/analytics/react';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Gabriel | Portfolio",
-  description: "Gabriel is a frontend developer",
+  title: "Gabriel | Frontend Developer Portfolio",
+  description: "Explore Gabriel's portfolio, showcasing expertise in modern frontend development, UI/UX design, and responsive web applications. Discover projects that highlight skills in HTML, CSS, JavaScript, React, Next.js, Tailwind, Framer Motion, Node.js, Express, MongoDB, PostgreSQL and more.",
 };
+
 
 export default function RootLayout({
   children,
